@@ -1,0 +1,30 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["es2017", "dom"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@nextjs-nestjs/types": ["libs/types/src/index.ts"]
+        },
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        "forceConsistentCasingInFileNames": true,
+        "exactOptionalPropertyTypes": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules", "tmp"]
+}
